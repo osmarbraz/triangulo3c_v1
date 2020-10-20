@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 /**
- * Description of the Class
+ * Classe da Janela da Aplicação.
  *
  * @author Osmar de Oliveira Braz Junior
  * @created 14 de Abril de 2007
@@ -31,14 +31,14 @@ public class FrmTriangulo extends JFrame {
     public JButton jBFechar;
 
     /**
-     * Constructor for the FrmTriangulo object
+     * Construtor para o objeto FrmTriangulo.
      */
     public FrmTriangulo() {
         inicializar();
     }
 
     /**
-     * Description of the Method
+     * Inicializa a janela e seus componentes. 
      */
     private void inicializar() {
         contentPane = (JPanel) this.getContentPane();

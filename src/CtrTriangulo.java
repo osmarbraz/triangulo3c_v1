@@ -2,7 +2,7 @@
 import java.awt.event.ActionEvent;
 
 /**
- * Description of the Class
+ * Classe de Controle da Aplicação.
  *
  * @author Osmar de Oliveira Braz Junior
  * @version 1.0
@@ -13,7 +13,7 @@ public class CtrTriangulo {
     private FrmTriangulo frmTriangulo;
 
     /**
-     * Constructor for the CtrTriangulo object
+     * Construtor para o objeto CtrTriangulo.
      */
     public CtrTriangulo() {
         // Instancia a janela
@@ -61,7 +61,8 @@ public class CtrTriangulo {
         triangulo.setBase(Double.parseDouble(frmTriangulo.jTBase.getText()));
         triangulo
                 .setAltura(Double.parseDouble(frmTriangulo.jTAltura.getText()));
-        getFrmTriangulo().jLArea.setText("Area :" + triangulo.getArea());
+        double area = triangulo.getArea();
+        getFrmTriangulo().jLArea.setText("Area :" + area);
     }
 
     /**
