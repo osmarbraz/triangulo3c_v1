@@ -1,7 +1,7 @@
 
-
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class EntTrianguloTest {
     
@@ -15,4 +15,10 @@ public class EntTrianguloTest {
         double resulto = instancia.getArea();
         assertEquals(resultadoEsperado, resulto, 0);             
     }       
+    
+    @Test
+    public void testEntTriangulo() {
+        EntTriangulo instancia = new EntTriangulo();
+        assertTrue((instancia.getAltura()==0 && instancia.getBase() == 0));
+    }
 }
