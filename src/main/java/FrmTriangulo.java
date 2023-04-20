@@ -38,7 +38,7 @@ public class FrmTriangulo extends JFrame {
     }
 
     /**
-     * Inicializa a janela e seus componentes. 
+     * Inicializa a janela e seus componentes.
      */
     private void inicializar() {
         contentPane = (JPanel) this.getContentPane();
